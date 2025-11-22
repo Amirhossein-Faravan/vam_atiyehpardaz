@@ -1,0 +1,249 @@
+/* تنظیمات کلی صفحه */
+body {
+  font-family: Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  color: #fff;
+  background-image: url("background-finance-blue.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* لوگو */
+.logo {
+  width: 150px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255,255,255,0.3);
+  transition: all 0.4s ease;
+}
+.logo:hover {
+  transform: scale(1.1) rotate(5deg);
+  box-shadow: 0 0 20px rgba(255,215,0,0.7);
+}
+
+/* سربرگ */
+header {
+  background-color: rgba(0,0,0,0.5);
+  text-align: center;
+  padding: 30px 20px;
+}
+header h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+header p {
+  font-size: 18px;
+}
+
+/* محتوای اصلی */
+main {
+  padding: 30px 20px;
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 10px;
+  margin: 20px;
+}
+
+/* تیترها */
+h2 {
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #ffd700;
+}
+h3 {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #00e5ff;
+}
+
+/* پاراگراف‌ها */
+p {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+/* خوش‌آمدگویی و تیم */
+.welcome, .team {
+  background: rgba(255,255,255,0.1);
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 12px;
+  text-align: center;
+  transition: all 0.5s ease;
+  box-shadow: 0 0 15px rgba(255,255,255,0.2);
+}
+.welcome h2, .team h2 {
+  color: #ffd700;
+  font-size: 26px;
+}
+.welcome ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+}
+.welcome li {
+  margin: 6px 0;
+  font-size: 16px;
+}
+.team p strong {
+  color: #00ffb3;
+}
+.welcome:hover, .team:hover {
+  transform: scale(1.05);
+  background: rgba(0,229,255,0.2);
+  box-shadow: 0 0 25px rgba(0,229,255,0.8);
+}
+
+/* خدمات ما */
+.services {
+  padding: 0 20px;
+}
+.services li {
+  background: rgba(255,255,255,0.1);
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+.services li:hover {
+  background: rgba(255,215,0,0.3);
+  transform: scale(1.05);
+}
+
+/* شرایط وام */
+.loan-conditions {
+  list-style-type: disc;
+  padding: 0 25px;
+  margin: 10px 0;
+}
+.loan-conditions li {
+  margin: 6px 0;
+  padding: 8px 10px;
+  background: rgba(255,255,255,0.08);
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+.loan-conditions li:hover {
+  background: rgba(0,229,255,0.25);
+  transform: scale(1.03);
+}
+
+/* تصویر الگوریتم رتبه اعتباری */
+.credit-algorithm {
+  margin: 30px 0;
+  text-align: center;
+  background: rgba(255,255,255,0.08);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(255,255,255,0.2);
+  transition: all 0.4s ease;
+}
+.credit-algorithm h3 {
+  color: #ffd700;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+.credit-algorithm img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,229,255,0.4);
+  transition: transform 0.3s ease;
+}
+.credit-algorithm img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 18px rgba(0,229,255,0.6);
+}
+
+/* دکمه‌ها */
+.buttons {
+  margin: 15px 0;
+}
+.btn {
+  display: inline-block;
+  color: white;
+  padding: 12px 24px;
+  margin: 5px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.btn:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+.btn:active {
+  transform: translateY(1px) scale(0.95);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+.btn.telegram {
+  background-color: #2196F3;
+}
+.btn.telegram:hover {
+  background-color: #0b7dda;
+}
+.btn.rubika {
+  background-color: #4CAF50;
+}
+.btn.rubika:hover {
+  background-color: #388E3C;
+}
+.btn.phone {
+  background-color: #FF9800;
+}
+.btn.phone:hover {
+  background-color: #F57C00;
+}
+
+/* گالری */
+.gallery {
+  width: 200px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255,255,255,0.3);
+  transition: all 0.3s ease;
+}
+.gallery:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255,255,255,0.6);
+}
+
+/* فوتر */
+footer {
+  background-color: rgba(0,0,0,0.6);
+  color: #ccc;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* واکنش‌گرایی */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 28px;
+  }
+  .logo {
+    width: 130px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  .gallery {
+    width: 45%;
+  }
+  .btn {
+    padding: 10px 18px;
+    margin: 4px;
+  }
+}
