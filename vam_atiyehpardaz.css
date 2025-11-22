@@ -1,4 +1,4 @@
-/* تنظیمات کلی صفحه */
+/* تنظیمات کلی */
 body {
   font-family: Tahoma, sans-serif;
   margin: 0;
@@ -76,32 +76,13 @@ p {
   transition: all 0.5s ease;
   box-shadow: 0 0 15px rgba(255,255,255,0.2);
 }
-.welcome h2, .team h2 {
-  color: #ffd700;
-  font-size: 26px;
-}
-.welcome ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 10px 0;
-}
-.welcome li {
-  margin: 6px 0;
-  font-size: 16px;
-}
-.team p strong {
-  color: #00ffb3;
-}
 .welcome:hover, .team:hover {
   transform: scale(1.05);
   background: rgba(0,229,255,0.2);
   box-shadow: 0 0 25px rgba(0,229,255,0.8);
 }
 
-/* خدمات ما */
-.services {
-  padding: 0 20px;
-}
+/* خدمات */
 .services li {
   background: rgba(255,255,255,0.1);
   margin: 8px 0;
@@ -115,11 +96,6 @@ p {
 }
 
 /* شرایط وام */
-.loan-conditions {
-  list-style-type: disc;
-  padding: 0 25px;
-  margin: 10px 0;
-}
 .loan-conditions li {
   margin: 6px 0;
   padding: 8px 10px;
@@ -132,7 +108,7 @@ p {
   transform: scale(1.03);
 }
 
-/* تصویر الگوریتم رتبه اعتباری */
+/* تصویر الگوریتم */
 .credit-algorithm {
   margin: 30px 0;
   text-align: center;
@@ -140,12 +116,6 @@ p {
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 0 12px rgba(255,255,255,0.2);
-  transition: all 0.4s ease;
-}
-.credit-algorithm h3 {
-  color: #ffd700;
-  font-size: 22px;
-  margin-bottom: 15px;
 }
 .credit-algorithm img {
   max-width: 100%;
@@ -178,28 +148,9 @@ p {
   transform: translateY(-3px) scale(1.05);
   box-shadow: 0 6px 12px rgba(0,0,0,0.3);
 }
-.btn:active {
-  transform: translateY(1px) scale(0.95);
-  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-}
-.btn.telegram {
-  background-color: #2196F3;
-}
-.btn.telegram:hover {
-  background-color: #0b7dda;
-}
-.btn.rubika {
-  background-color: #4CAF50;
-}
-.btn.rubika:hover {
-  background-color: #388E3C;
-}
-.btn.phone {
-  background-color: #FF9800;
-}
-.btn.phone:hover {
-  background-color: #F57C00;
-}
+.btn.telegram { background-color: #2196F3; }
+.btn.rubika { background-color: #4CAF50; }
+.btn.phone { background-color: #FF9800; }
 
 /* گالری */
 .gallery {
@@ -227,23 +178,27 @@ footer {
 
 /* واکنش‌گرایی */
 @media (max-width: 768px) {
-  header h1 {
-    font-size: 28px;
-  }
-  .logo {
-    width: 130px;
-  }
-  h2 {
-    font-size: 22px;
-  }
-  h3 {
-    font-size: 18px;
-  }
-  .gallery {
-    width: 45%;
+  header h1 { font-size: 22px; }
+  header p { font-size: 14px; }
+  .logo { width: 120px; }
+  h2 { font-size: 18px; }
+  h3 { font-size: 16px; }
+  p, li { font-size: 14px; }
+  main { margin: 10px; padding: 15px; }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .btn {
-    padding: 10px 18px;
-    margin: 4px;
+    width: 90%;
+    text-align: center;
+    margin: 6px 0;
+  }
+
+  .gallery {
+    width: 100%;
+    height: auto;
   }
 }
